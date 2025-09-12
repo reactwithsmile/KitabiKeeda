@@ -1,0 +1,47 @@
+.payment{margin-top: 5rem;}
+
+.payment-card{
+    margin-left: 6rem;
+    padding: 5rem;
+    display: flex;
+    gap: 6rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    justify-items: center;
+}
+.payment-cards{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    background-image: linear-gradient(to bottom,rgb(68, 68, 161),rgb(184, 196, 15));
+}
+.payment-cards>span:nth-of-type(1){
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.payment-cards>span:nth-of-type(2){
+    font-size: 3rem;font-weight: 500;}
+
+.feature img{height: 3rem;width: 3rem;}
+
+.payment-cards button{
+    width: 100%;
+    margin-top: 4rem;
+    padding: 1rem;
+    background-color: aliceblue;
+    font-size: 1.5rem;
+}
+.payment-cards>img{
+    height: 5rem;
+    width: 5rem;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.featureIndex{
+    display: flex;
+    gap: 1rem;
+}

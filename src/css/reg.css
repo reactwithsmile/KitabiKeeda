@@ -1,0 +1,11 @@
+.register-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+}
+.f-register{
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,73 @@
+.logos {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #5e0f58, #a11d99);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+}
+
+/* Optional hover effect for the logo */
+.logos:hover {
+    transform: scale(1.05);
+}
+
+.min {
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 2rem;
+    border-radius: 50%; /* make icons circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.min:hover {
+    transform: scale(1.1);
+}
+
+.f-right h4 {
+    color: purple;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Contact items horizontal */
+.f-right p {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* space between icon and text */
+    margin-bottom: 0.5rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.f-right p:hover {
+    color: #a11d99;
+}
+
+/* Flex container for contact items */
+.f-right {
+    display: flex;
+    flex-wrap: wrap; /* wrap on small screens */
+    gap: 20px; /* space between each <p> */
+}
+
+/* Social buttons hover effect */
+.btn-floating {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.btn-floating:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* Footer bottom */
+footer .text-center {
+    color: white;
+    font-weight: 500;
+}
